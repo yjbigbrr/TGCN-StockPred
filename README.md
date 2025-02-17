@@ -11,3 +11,30 @@ S&P 500 주가 데이터를 활용하여 그래프를 생성하고, Temporal Gra
 - **Cholesky 분해를 활용**하여 인접 행렬 복원
 
 ## 🏗️ Project Structure
+project_root/
+│── engine.py           # TGCNCholeskyModel 및 학습 엔진
+│── main.py             # 데이터 로드 및 학습 실행
+│── preprocess.py       # 데이터 전처리 및 그래프 생성
+│── requirements.txt    # 필요한 패키지 목록
+│── README.md           # 프로젝트 설명
+│── .gitignore          # Git에서 제외할 파일 목록
+
+## 🔧 Installation
+### 1️⃣ 환경 설정
+```bash
+conda create -n myenv python=3.8
+conda activate myenv
+또는
+
+### 2️⃣ 패키지 설치
+pip install -r requirements.txt
+
+
+
+🚀 Usage
+
+1️⃣ 데이터 다운로드
+
+프로젝트에서 S&P 500 데이터를 사용하므로 데이터베이스 연결이 필요합니다.연결 정보를 수정하려면 preprocess.py에서 _GOGH_URL을 설정하세요.
+
+2️⃣ 학습 실행
