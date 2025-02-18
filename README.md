@@ -9,22 +9,22 @@ S&P 500 주가 데이터를 활용하여 그래프를 생성하고, Temporal Gra
 - **Graph Convolutional Network (GCN)** 을 이용한 노드 특성 추출
 - **LSTM 기반 시계열 학습**을 통해 미래 그래프 구조 예측
 - **Cholesky 분해를 활용**하여 인접 행렬 복원
-
+  
 ## 🏗️ Project Structure
+```bash
 project_root/
 │── engine.py           # TGCNCholeskyModel 및 학습 엔진
 │── main.py             # 데이터 로드 및 학습 실행
 │── preprocess.py       # 데이터 전처리 및 그래프 생성
 │── requirements.txt    # 필요한 패키지 목록
 │── README.md           # 프로젝트 설명
-│── .gitignore          # Git에서 제외할 파일 목록
 
 ## 🔧 Installation
 ### 1️⃣ 환경 설정
 ```bash
 conda create -n myenv python=3.8
 conda activate myenv
-또는
+
 
 ### 2️⃣ 패키지 설치
 pip install -r requirements.txt
