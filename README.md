@@ -12,7 +12,6 @@ S&P 500 주가 데이터를 활용하여 그래프를 생성하고, Temporal Gra
   
 ## 🏗️ Project Structure
 ```plaintext
-```bash
 project_root/
 │── engine.py           # TGCNCholeskyModel 및 학습 엔진
 │── main.py             # 데이터 로드 및 학습 실행
