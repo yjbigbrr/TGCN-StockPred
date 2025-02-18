@@ -18,7 +18,7 @@ project_root/
 │── preprocess.py       # 데이터 전처리 및 그래프 생성
 │── requirements.txt    # 필요한 패키지 목록
 │── README.md           # 프로젝트 설명
-
+```plaintext
 
  🔧 Installation
 ### 1️⃣ 환경 설정
