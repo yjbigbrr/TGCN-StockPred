@@ -27,7 +27,6 @@ project_root/
 conda create -n myenv python=3.8
 conda activate myenv
 
-
 ### 2️⃣ 패키지 설치
 pip install -r requirements.txt
 
