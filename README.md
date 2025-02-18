@@ -19,10 +19,3 @@ project_root/
 │── requirements.txt    # 필요한 패키지 목록
 │── README.md           # 프로젝트 설명
 
-## 🔧 Installation
-
-### 1️⃣ 환경 설정
-
-```bash
-conda create -n myenv python=3.8
-conda activate myenv
