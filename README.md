@@ -20,7 +20,7 @@ project_root/
 │── README.md           # 프로젝트 설명
 
 
-## 🔧 Installation
+ 🔧 Installation
 ### 1️⃣ 환경 설정
 ```bash
 conda create -n myenv python=3.8
