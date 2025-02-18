@@ -18,23 +18,4 @@ project_root/
 │── preprocess.py       # 데이터 전처리 및 그래프 생성
 │── requirements.txt    # 필요한 패키지 목록
 │── README.md           # 프로젝트 설명
-```plaintext
 
- 🔧 Installation
-### 1️⃣ 환경 설정
-```bash
-conda create -n myenv python=3.8
-conda activate myenv
-
-### 2️⃣ 패키지 설치
-pip install -r requirements.txt
-
-'''
-
-🚀 Usage
-
-1️⃣ 데이터 다운로드
-
-프로젝트에서 S&P 500 데이터를 사용하므로 데이터베이스 연결이 필요합니다.연결 정보를 수정하려면 preprocess.py에서 _GOGH_URL을 설정하세요.
-
-2️⃣ 학습 실행
